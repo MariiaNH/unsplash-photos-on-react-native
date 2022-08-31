@@ -15,7 +15,7 @@ export default function Navigate() {
         component={ImagesGallery}
         options={{
           title: 'Main Gallery',
-          headerStyle: { backgroundColor: '#4d4d4d', height: 60},
+          headerStyle: { backgroundColor: '#4d4d4d', height: 80},
           headerTitleStyle: { color: '#f1dad0', fontWeight: '800' },
         }}
       />
@@ -24,7 +24,7 @@ export default function Navigate() {
         component={OpenedImage}
         options={{
           title: 'You choose this image',
-          headerStyle: { backgroundColor: '#4d4d4d', height: 60},
+          headerStyle: { backgroundColor: '#4d4d4d', height: 80},
           headerTitleStyle: { color: '#f1dad0', fontWeight: '800' },
         }}
       />
